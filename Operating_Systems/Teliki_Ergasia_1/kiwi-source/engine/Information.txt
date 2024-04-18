@@ -1,0 +1,59 @@
+  				      ___________
+				     |Information|
+ 				      ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ 
+Writen by
+#Γιωργος Χατζηλιγος ΑΜ4835
+#Σταθης Ανδρεοπουλος ΑΜ4630
+
+
+In read | write case:
+-----------------------------------------------------------------------------------------						
+Argument[0]: You must give the name of the file. In this case you must give kiwi-bench.
+Argument[1]: You must give the name of the command that you want to use. read or write or readwrite.
+Argument[2]: You must give the number of the count. Always give a positive number.
+Argument[3]: You must give the number of the threads. Always give a positive number.
+Argument[4]: You must give the number r. Always give a positive number.
+Argument[5]: Type any to see this txt
+-----------------------------------------------------------------------------------------						
+
+In readwrite case 
+-----------------------------------------------------------------------------------------						
+Argument[0]: You must give the name of the file. In this case you must give kiwi-bench.
+Argument[1]: You must give the name of the command that you want to use. read or write or readwrite.
+Argument[2]: You must give the number of the count. Always give a positive number.
+Argument[3]: You must give the number of the threads. Always give a positive number.
+Argument[4]: You must give the number r. Always give a positive number.
+Argument[5]: You must give the rate of the reads. Always give a positive number.
+Argument[6]: You must give the rate of the writes. Always give a positive number.
+Argument[7]: Type any to see this txt
+Comment --> always (rate of the reads) + (rate of the writes) = 100%
+------------------------------------------------------------------------------------------	
+Execution example of a read command
+myy601@myy601lab1:~/kiwi/kiwi-source/bench$ ./kiwi-bench read 100000 20 1 70 30
+
+Execution example of a write command
+myy601@myy601lab1:~/kiwi/kiwi-source/bench$ ./kiwi-bench write 100000 30 1 80 20
+
+Execution example of a readwrite command
+myy601@myy601lab1:~/kiwi/kiwi-source/bench$ ./kiwi-bench readwrite 100000 40 1 90 10
+------------------------------------------------------------------------------------------
+
+
+###---------------------------------(Error function)------------------------------------###
+
+function which catch user's wrong input 
+error_cather()
+error_cather_1()
+read_function_rate()
+write_function_rate()
+complement_rate()
+if user choose a wrong case rate take default
+#define R_RATE 10
+#define W_RATE 90
+	
+Στα αρχεια που εγιναν αλλαγες 
+Db.c -> /home/myy601/kiwi/kiwi-source/engine/db.c
+Db.c -> /home/myy601/kiwi/kiwi-source/engine/db.h
+Bench.c -> /home/myy601/kiwi/kiwi-source/bench/bench.c
+Kiwi.c -> /home/myy601/kiwi/kiwi-source/bench/kiwi.c
+Information.txt -> /home/myy601/kiwi/kiwi-source/engine/Information.txt
