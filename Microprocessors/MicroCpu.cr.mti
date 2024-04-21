@@ -1,0 +1,43 @@
+C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/cpu.v {1 {vlog -work work C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/cpu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MCPU
+
+Top level modules:
+	MCPU
+
+} {} {}} C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/ramcontroller.v {1 {vlog -work work C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/ramcontroller.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MCPU_RAMController
+
+Top level modules:
+	MCPU_RAMController
+
+} {} {}} C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/alutb.v {1 {vlog -work work C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/alutb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MCPU_Alutb
+
+Top level modules:
+	MCPU_Alutb
+
+} {} {}} C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/registerfile.v {1 {vlog -work work C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/registerfile.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MCPU_Registerfile
+
+Top level modules:
+	MCPU_Registerfile
+
+} {} {}} C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/ramcontrollertb.v {1 {vlog -work work C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/ramcontrollertb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ramcontrollertb
+
+Top level modules:
+	ramcontrollertb
+
+} {} {}} C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/alu.v {1 {vlog -work work C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/alu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MCPU_Alu
+
+Top level modules:
+	MCPU_Alu
+
+} {} {}} C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/cputb.v {0 vlog\ -work\ work\ C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/cputb.v\nModel\ Technology\ ModelSim\ ALTERA\ vlog\ 10.1d\ Compiler\ 2012.11\ Nov\ \ 2\ 2012\n--\ Compiling\ module\ MCPUtb\n**\ Error:\ C:/Users/GX/Desktop/microcpu-rtl/microcpu-rtl/cputb.v(98):\ near\ \"'0\":\ syntax\ error,\ unexpected\ UNSIZED_BIT,\ expecting\ ','\ or\ '\}'\n\n {4.0 5.0} {}}
